@@ -1,0 +1,73 @@
+@import "./table.scss";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.content__title{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        width: 500px;
+        height: 30px;
+        font-size: 16px;
+    }
+    textarea{
+        width: 500px;
+        height: 150px;
+        font-size: 16px;
+
+    }
+
+    button{
+        width: 200px;
+        height: 35px;
+        margin: 40px auto 50px auto;
+    }
+
+    select{
+        min-width: 400px;
+        height: 40px;
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+}
+
+.message{
+    padding: 30px;
+    text-align: center;
+    h3{
+        color: red;
+    }
+}
